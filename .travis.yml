@@ -3,13 +3,4 @@ python:
   - "3.6"
 
 script:
-  - pytest test/tests.py
-
-  notifications:
-    email:
-      recipients:
-        - griano@utexas.edu
-      on_success:
-        - never
-      on_failure:
-        - always
+  - python hello.py
